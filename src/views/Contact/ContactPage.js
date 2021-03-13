@@ -41,7 +41,15 @@ export default function ContactPage() {
         </div>
 
         <div className="contactForm">
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="post"
+            action="/success"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <h2>Send Message</h2>
             <div className="inputBox">
               <input type="text" name="" required="required"></input>
