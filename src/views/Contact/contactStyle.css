@@ -7,18 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.contact {
-  padding: 50px 100px;
-}
-
-.contact .content {
-  max-width: 800px;
-}
-
-.contact .content h2 {
-  font-size: 36px;
-}
-
 .contactForm {
   width: 40%;
   padding: 40px;

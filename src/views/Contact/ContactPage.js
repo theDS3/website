@@ -10,9 +10,15 @@ export default function ContactPage() {
       min-vh-100  d-flex justify-content-center 
       align-items-center flex-column bg-dark"
       id="contact"
+      style={{ padding: '50px 100px' }}
     >
-      <div className="content text-center">
-        <h2 className="text-light font-weight-normal">Contact us</h2>
+      <div className="content text-center" style={{ maxWidth: '800px' }}>
+        <h2
+          className="text-light font-weight-normal"
+          style={{ fontSize: '36px' }}
+        >
+          Contact us
+        </h2>
         <p className="text-light font-weight-light">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo
           nostrum veniam ad maxime voluptatem modi obcaecati blanditiis
@@ -42,12 +48,14 @@ export default function ContactPage() {
 
         <div className="contactForm">
           <form
-            name="contact-form"
             method="post"
+            netlify-honeypot="bot-field"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            name="contact"
           >
             <h2>Send Message</h2>
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <div className="inputBox">
               <input type="text" name="name" required="required"></input>
               <span>Full name</span>
