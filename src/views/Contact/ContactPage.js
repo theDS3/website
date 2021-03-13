@@ -41,7 +41,7 @@ export default function ContactPage() {
         </div>
 
         <div className="contactForm">
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
             <h2>Send Message</h2>
             <div className="inputBox">
               <input type="text" name="" required="required"></input>
