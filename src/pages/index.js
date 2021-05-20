@@ -8,6 +8,7 @@ import Footer from '../views/Footer';
 import Header from '../components/Header';
 
 import AboutPage from '../views/About';
+import ProjectPage from '../views/Projects';
 
 import UE from '../assets/images/UE.jpg';
 import PE from '../assets/images/PE.jpg';

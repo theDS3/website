@@ -1,8 +1,8 @@
 import React from 'react';
 
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import UE from '../assets/images/UE.jpg';
+import PE from '../assets/images/PE.jpg';
+
 
 export default function projects() {
   return (
@@ -10,15 +10,13 @@ export default function projects() {
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+          <iframe src="https://calendar.google.com/calendar/embed?src=n8d6uleu3460ufpvl0ffad1mi0%40group.calendar.google.com&ctz=America%2FToronto" style={{border: 'hidden'}} width="700" height="600" frameborder="0" scrolling="no"></iframe>
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Event Calendar</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                The calendar on the left shows our upcoming events for DS3!
               </p>
             </div>
           </div>
@@ -26,16 +24,25 @@ export default function projects() {
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={PE} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Events</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    <ul>
+                      <li>
+                        Event 1
+                      </li>
+                      <li>
+                        Event 2
+                      </li>
+                      <li>
+                        Event 3
+                      </li>
+                    </ul>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -46,19 +53,32 @@ export default function projects() {
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={UE} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Events</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  <div class="float-right">
+                  <ul>
+                      <li>
+                        Event 1
+                      </li>
+                      <li>
+                        Event 2
+                      </li>
+                      <li>
+                        Event 3
+                      </li>
+                    </ul>
+                    <hr className="d-none d-lg-block mb-0 mr-0 upcoming-underline" />
+                  </div>
+                  
+                  
                   </p>
-                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                  
                 </div>
               </div>
             </div>
@@ -66,5 +86,6 @@ export default function projects() {
         </div>
       </div>
     </section>
+
   );
 }
