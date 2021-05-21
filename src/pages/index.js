@@ -9,8 +9,6 @@ import Header from '../components/Header';
 
 import AboutPage from '../views/About';
 import ProjectPage from '../views/Projects';
-import Subscribe from '../views/Subscribe';
-import SocialLinks from '../views/SocialLinks';
 import ContactPage from '../views/Contact/ContactPage';
 
 const IndexPage = () => (
