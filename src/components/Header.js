@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import { Link } from 'gatsby';
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +42,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+            DS<sup>3</sup>
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -67,21 +68,17 @@ export default class Header extends Component {
                   type="id"
                   element="about"
                 >
-                  <a className="nav-link" href="#about">
-                    About
+                  <a className="nav-link" href="#about" title="About us">
+                    {' '}
+                    About{' '}
                   </a>
                 </Scroll>
               </li>
               <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="projects"
-                >
-                  <a className="nav-link" href="#projects">
-                    Projects
-                  </a>
-                </Scroll>
+                <Link className="nav-link" to="/team" title="Meet the Team">
+                  {' '}
+                  Team{' '}
+                </Link>
               </li>
               <li className="nav-item">
                 <Scroll
@@ -89,8 +86,9 @@ export default class Header extends Component {
                   type="id"
                   element="contact"
                 >
-                  <a className="nav-link" href="#contact">
-                    Contact
+                  <a className="nav-link" href="#contact" title="Get in touch">
+                    {' '}
+                    Contact{' '}
                   </a>
                 </Scroll>
               </li>
