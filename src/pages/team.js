@@ -37,7 +37,7 @@ export default function Team() {
           <div className="row">
             <div className="col-lg-8 mx-auto">
               <br></br>
-              <h2 className="text-black mb-4">Team</h2>
+              <h2 className="text-black mb-4 mt-10">Team</h2>
 
               <div class="d-flex flex-row">
                 <div class="p-2">
