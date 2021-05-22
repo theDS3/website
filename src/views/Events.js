@@ -3,14 +3,21 @@ import React from 'react';
 import UE from '../assets/images/UE.jpg';
 import PE from '../assets/images/PE.jpg';
 
-
-export default function projects() {
+export default function Events() {
   return (
-    <section id="projects" className="projects-section bg-light">
+    <section id="events" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-          <iframe src="https://calendar.google.com/calendar/embed?src=n8d6uleu3460ufpvl0ffad1mi0%40group.calendar.google.com&ctz=America%2FToronto" style={{border: 'hidden'}} width="700" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe
+              title="Calendar"
+              src="https://calendar.google.com/calendar/embed?src=n8d6uleu3460ufpvl0ffad1mi0%40group.calendar.google.com&ctz=America%2FToronto"
+              style={{ border: 'hidden' }}
+              width="700"
+              height="600"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -33,15 +40,9 @@ export default function projects() {
                   <h4 className="text-white">Events</h4>
                   <p className="mb-0 text-white-50">
                     <ul>
-                      <li>
-                        Event 1
-                      </li>
-                      <li>
-                        Event 2
-                      </li>
-                      <li>
-                        Event 3
-                      </li>
+                      <li>Event 1</li>
+                      <li>Event 2</li>
+                      <li>Event 3</li>
                     </ul>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
@@ -61,24 +62,15 @@ export default function projects() {
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Events</h4>
                   <p className="mb-0 text-white-50">
-                  <div class="float-right">
-                  <ul>
-                      <li>
-                        Event 1
-                      </li>
-                      <li>
-                        Event 2
-                      </li>
-                      <li>
-                        Event 3
-                      </li>
-                    </ul>
-                    <hr className="d-none d-lg-block mb-0 mr-0 upcoming-underline" />
-                  </div>
-                  
-                  
+                    <div class="float-right">
+                      <ul>
+                        <li>Event 1</li>
+                        <li>Event 2</li>
+                        <li>Event 3</li>
+                      </ul>
+                      <hr className="d-none d-lg-block mb-0 mr-0 upcoming-underline" />
+                    </div>
                   </p>
-                  
                 </div>
               </div>
             </div>
@@ -86,6 +78,5 @@ export default function projects() {
         </div>
       </div>
     </section>
-
   );
 }
