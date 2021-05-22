@@ -8,14 +8,14 @@ import Footer from '../views/Footer';
 import Header from '../components/Header';
 
 import AboutPage from '../views/About';
-import ProjectPage from '../views/Projects';
+import ProjectPage from '../views/Events';
 import ContactPage from '../views/Contact/ContactPage';
 
 const IndexPage = () => (
   <Layout>
     <Header />
 
-    <header className="masthead">
+    <header id="home" className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
