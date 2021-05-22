@@ -1,28 +1,28 @@
 import React from 'react';
 
-import p1 from '../assets/images/presidents/p1.jpg';
-import p2 from '../assets/images/presidents/p2.jpg';
-import p3 from '../assets/images/presidents/p3.jpg';
-import p4 from '../assets/images/presidents/p4.jpg';
-import p5 from '../assets/images/presidents/p5.jpg';
-import p6 from '../assets/images/presidents/p6.jpg';
-import p7 from '../assets/images/presidents/p7.jpg';
+import p1 from '../assets/images/p1.jpg';
+import p2 from '../assets/images/p2.jpg';
+import p3 from '../assets/images/p3.jpg';
+import p4 from '../assets/images/p4.jpg';
+import p5 from '../assets/images/p5.jpg';
+import p6 from '../assets/images/p6.jpg';
+import p7 from '../assets/images/p7.jpg';
 
-import p8 from '../assets/images/directors/d1.jpg';
-import p9 from '../assets/images/directors/d2.jpg';
-import p10 from '../assets/images/directors/d3.jpg';
-import p11 from '../assets/images/directors/d4.jpg';
+import p8 from '../assets/images/d1.jpg';
+import p9 from '../assets/images/d2.jpg';
+import p10 from '../assets/images/d3.jpg';
+import p11 from '../assets/images/d4.jpg';
 
-import p12 from '../assets/images/social-design/s1.jpg';
-import p13 from '../assets/images/social-design/s2.jpg';
+import p12 from '../assets/images/s1.jpg';
+import p13 from '../assets/images/s2.jpg';
 
-import p14 from '../assets/images/associates/a1.jpg';
-import p15 from '../assets/images/associates/a2.jpg';
-import p16 from '../assets/images/associates/a3.jpg';
-import p17 from '../assets/images/associates/a4.jpg';
-import p18 from '../assets/images/associates/a5.jpg';
-import p19 from '../assets/images/associates/a6.jpg';
-import p20 from '../assets/images/associates/a7.jpg';
+import p14 from '../assets/images/a1.jpg';
+import p15 from '../assets/images/a2.jpg';
+import p16 from '../assets/images/a3.jpg';
+import p17 from '../assets/images/a4.jpg';
+import p18 from '../assets/images/a5.jpg';
+import p19 from '../assets/images/a6.jpg';
+import p20 from '../assets/images/a7.jpg';
 
 import Layout from '../components/Layout';
 import Footer from '../views/Footer';
