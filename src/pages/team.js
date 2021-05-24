@@ -2,29 +2,29 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import p1 from '../assets/images/presidents/p1.jpg';
-import p2 from '../assets/images/presidents/p2.jpg';
-import p3 from '../assets/images/presidents/p3.jpg';
-import p4 from '../assets/images/presidents/p4.jpg';
-import p5 from '../assets/images/presidents/p5.jpg';
-import p6 from '../assets/images/presidents/p6.jpg';
-import p7 from '../assets/images/presidents/p7.jpg';
+import p1 from '../assets/images/presidents/p1.webp';
+import p2 from '../assets/images/presidents/p2.webp';
+import p3 from '../assets/images/presidents/p3.webp';
+import p4 from '../assets/images/presidents/p4.webp';
+import p5 from '../assets/images/presidents/p5.webp';
+import p6 from '../assets/images/presidents/p6.webp';
+import p7 from '../assets/images/presidents/p7.webp';
 
-import p8 from '../assets/images/directors/d1.jpg';
-import p9 from '../assets/images/directors/d2.jpg';
-import p10 from '../assets/images/directors/d3.jpg';
-import p11 from '../assets/images/directors/d4.jpg';
+import p8 from '../assets/images/directors/d1.webp';
+import p9 from '../assets/images/directors/d2.webp';
+import p10 from '../assets/images/directors/d3.webp';
+import p11 from '../assets/images/directors/d4.webp';
 
-import p12 from '../assets/images/social-design/s1.jpg';
-import p13 from '../assets/images/social-design/s2.jpg';
+import p12 from '../assets/images/social-design/s1.webp';
+import p13 from '../assets/images/social-design/s2.webp';
 
-import p14 from '../assets/images/associates/a1.jpg';
-import p15 from '../assets/images/associates/a2.jpg';
-import p16 from '../assets/images/associates/a3.jpg';
-import p17 from '../assets/images/associates/a4.jpg';
-import p18 from '../assets/images/associates/a5.jpg';
-import p19 from '../assets/images/associates/a6.jpg';
-import p20 from '../assets/images/associates/a7.jpg';
+import p14 from '../assets/images/associates/a1.webp';
+import p15 from '../assets/images/associates/a2.webp';
+import p16 from '../assets/images/associates/a3.webp';
+import p17 from '../assets/images/associates/a4.webp';
+import p18 from '../assets/images/associates/a5.webp';
+import p19 from '../assets/images/associates/a6.webp';
+import p20 from '../assets/images/associates/a7.webp';
 
 export default function Team() {
   return (
