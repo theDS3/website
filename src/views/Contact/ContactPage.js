@@ -2,6 +2,7 @@ import React from 'react';
 
 import './contactStyle.css';
 import ContactItem from './ContactItem';
+import config from '../../../config';
 
 export default function ContactPage() {
   return (
@@ -27,23 +28,15 @@ export default function ContactPage() {
 
       <div className="container w-100 p-3 d-flex justify-content-center align-items-center">
         <div className="contactInfo w-50 p-3 d-flex flex-column">
-          <ContactItem
-            title="Address"
-            logoName="fa fa-map-marker"
-            content="1265 Military Trail, <br /> Scarborough, Ontario, <br /> M1C 1A4"
-          />
-
-          <ContactItem
-            title="Phone"
-            logoName="fa fa-phone"
-            content="507-475-6094"
-          />
-
-          <ContactItem
-            title="Email"
-            logoName="fas fa-paper-plane"
-            content="thedatasciencecube@gmail.com"
-          />
+          {
+            config.contact.map(function(item, index) {
+              return <ContactItem key={index} 
+                                  title={item.title}
+                                  logoName={item.icon}
+                                  content={item.text}>            
+                      </ContactItem>
+            })
+          }
         </div>
 
         <div className="contactForm">
