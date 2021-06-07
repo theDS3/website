@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ipad from '../assets/images/ipad.png';
+import logo2 from '../assets/images/logo2.png';
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        <img src={logo2} className="img-fluid" alt="" />
       </div>
     </section>
   );
