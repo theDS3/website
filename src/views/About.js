@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo2 from '../assets/images/logo2.jpg';
+import logo2 from '../assets/images/logo2.png';
 
 export default function About() {
   return (
