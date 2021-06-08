@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
-import config from '../../config';
+import { Link } from 'gatsby';
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -36,12 +36,12 @@ export default class Header extends Component {
     const { openMenu, visibilityClass } = this.state;
     return (
       <nav
-        className={`navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`}
+        className={`navbar navbar-expand-lg navbar-light fixed-top bg-dark ${visibilityClass}`}
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+          <a className="navbar-brand" id="#page-top">
+            DS<sup>3</sup>
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -65,9 +65,20 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
+                  element="home"
+                >
+                  <a className="nav-link" href="#home" title="About us">
+                    Home
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
                   element="about"
                 >
-                  <a className="nav-link" href="#about">
+                  <a className="nav-link" href="#about" title="About us">
                     About
                   </a>
                 </Scroll>
@@ -76,12 +87,17 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="projects"
+                  element="events"
                 >
-                  <a className="nav-link" href="#projects">
-                    Projects
+                  <a className="nav-link" href="#events" title="Events">
+                    Events
                   </a>
                 </Scroll>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/team" title="Meet the Team">
+                  Team
+                </Link>
               </li>
               <li className="nav-item">
                 <Scroll
@@ -89,7 +105,7 @@ export default class Header extends Component {
                   type="id"
                   element="contact"
                 >
-                  <a className="nav-link" href="#contact">
+                  <a className="nav-link" href="#contact" title="Get in touch">
                     Contact
                   </a>
                 </Scroll>
