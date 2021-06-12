@@ -20,10 +20,6 @@ export default function ContactPage() {
         >
           Contact us
         </h2>
-        <p className="text-light font-weight-light">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo
-          nostrum veniam ad maxime voluptatem modi obcaecati blanditiis
-        </p>
       </div>
 
       <div className="container w-100 p-3 d-flex justify-content-center align-items-center">
