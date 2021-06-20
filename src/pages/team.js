@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import Footer from '../views/Footer';
+import Header from '../components/Header';
 
 import p1 from '../assets/images/presidents/p1.webp';
 import p2 from '../assets/images/presidents/p2.webp';
@@ -29,6 +31,7 @@ import p20 from '../assets/images/associates/a7.webp';
 export default function Team() {
   return (
     <Layout>
+      <Header />
       <section id="team" className="team-section text-center">
         <div className="container">
           <div className="row">
@@ -112,6 +115,7 @@ export default function Team() {
           <br></br>
         </div>
       </section>
+      <Footer />
     </Layout>
   );
 }
